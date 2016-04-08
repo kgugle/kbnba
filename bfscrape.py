@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import csv
 from collections import OrderedDict
 
-def scrape(inp):
+def scrape(inp): #help by Sushain Cherivirala
 	url = 'http://widgets.sports-reference.com/wg.fcgi?css=1&site=bbr&url=%2Fplayers%2F{}%2F{}01.html&div=div_totals'
 
 	if __name__ == '__main__':
