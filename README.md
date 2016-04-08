@@ -1,0 +1,2 @@
+# kbnba
+The goal of this project was to find the Kevin Bacon of the NBA, or to find the players that have played with the greatest number of unique players in their basketball careers. basketball.py scrapes information about seasons/teams played for from basketball-reference.com and outputs comma separated values that can be placed into an excel file. This excel file was then transformed into a large SQL query through sqilizer.io and uploaded to a mySQL database and also imported into an R module. The mySQL query can be found in upload.sql.
