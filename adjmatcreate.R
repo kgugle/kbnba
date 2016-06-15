@@ -2,8 +2,6 @@ ball<-read.csv("BASKETBALL.csv")
 dim(ball)
 #4097 57
 
-
-
 yr.seq<-seq(2,56,by=2)
 team.seq<-seq(3,57,by=2)
 
